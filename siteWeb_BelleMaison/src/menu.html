@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belle Maison</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesHeader.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/stylesMenu.css" media="screen"/>
+</head>
+<body>
+<header style="text-align:center;">
+
+    <a href="menu.html" class="titre">BELLE MAISON</a><br><br><br>
+    <table>
+        <tr><a class="bob" href="infosclients.html">Info Clients</a></tr>
+        <tr><a class="bob" href="typesdeproprietes.html">Type de Propriété</a></tr>
+        <tr><a class="bob" href="calculhypotheque.html">Calculer Hypothèque</a></tr>
+    </table>
+
+    <br>
+    <div class="dateHeure" id="currentDate">
+        <script type="text/javascript" language="javascript">
+    var temp;
+    var today = new Date();
+    var minute = today.getMinutes();
+
+    if(minute < 10)
+    {
+      minute = '0' + minute;
+    }
+    else
+    {
+        minute = '' + minute;
+    }
+    var date = today.getDate() + '-' + (today.getMonth()+1) + '-' + today.getFullYear() +
+    ' ' + today.getHours() + ':' + today.getMinutes();
+    temp = document.getElementById("currentDate");
+    temp.innerHTML = date;
+    temp.style.color = "white";
+    </script>
+    </div>
+
+</header>
+<div class="box">
+    <img id="house1" alt="" src="photo/house1.jpg"/>
+    <img id="house2" alt="" src="photo/house2.jpg"/>
+    <img id="house3" alt="" src="photo/house3.jpg"/>
+    <img id="house4" alt="" src="photo/house4.jpg"/>
+</div>
+</body>
+</html>
