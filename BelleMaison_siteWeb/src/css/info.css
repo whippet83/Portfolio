@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, h6 {
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+	color: #454543;
+}
+
+form {
+    border: 0;
+    padding: 0;
+}
+
+p {
+font-size: 20px;
+}
+
+.space {
+  width: 25px;
+  height: auto;
+  display: inline-block;
+}
+.footer {
+    width: 100%;
+    min-width: 780px;
+    padding: 0;
+    height: 20px;
+    margin-top: 65px;
+	border-top: 1px solid #454543;
+	clear: both;
+    position: absolute;
+}
+
+.footer-color {
+    width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+	width: 80%;
+	min-width: 780px;
+	max-width: 1360px;
+	overflow: hidden;
+}
+
+.footer-wrapper ul {
+	list-style: none;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.footer-wrapper ul li.left {
+	float: left;
+	width: 75%;
+	text-align: center;
+	padding: 20px 0 0 0;
+	margin:0;
+
+}
+
+input[type=submit], input[type=reset] {
+	font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+	font-size:90%;
+	text-transform: uppercase;
+	padding: 8px 12px 9px 12px;
+	margin:0 0 0 3px;
+
+	border: 1px solid #53900a;
+	background-color: #454543;
+	color: #ffffff;
+}
+.asterisk {
+font-size: 100%;
+color:#FC0303;
+padding: 0 0 0 5px;
+}
+
+.content {
+    width: 100%;
+    min-width: 780px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    min-width: 780px;
+    max-width: 1360px;
+    overflow: hidden;
+}
+
+.box {
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #FFF;
+    box-shadow:10px 10px 20px 20px #e5e5e5 inset;
+}

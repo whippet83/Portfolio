@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcul Hypothèque</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesHeader.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/calcul.css" media="screen"/>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="javascript/Calculer.js"></script>
+</head>
+<body>
+<header style="text-align:center;">
+
+    <a href="menu.html" class="titre">BELLE MAISON</a><br><br><br>
+    <table>
+        <tr><a class="bob" href="infosclients.html">Info Clients</a></tr>
+        <tr><a class="bob" href="typesdeproprietes.html">Type de Propriété</a></tr>
+        <tr><a class="bob" href="calculhypotheque.html">Calculer Hypothèque</a></tr>
+    </table>
+
+</header>
+<div class="content">
+    <div class="content-wrapper">
+        <div class="box">
+            <h1>Calculatrice hypothécaire</h1>
+            <hr/>
+            <p>Trouvez la bonne stratégie pour atteindre votre objectif.</p>
+            <p>Calculez les détails de votre prêt et déterminez les options de paiement qui conviennent le mieux à vos
+                besoins financiers.</p>
+            <form name="formulaire" action="#">
+                <fieldset>
+                    <ul style="list-style-type:none; font-size:20px;">
+                        <li class='label'><span>Montant de l'emprunt</span><span class='asterisk'>*</span></li>
+                        <li><input type='text' size="50" name="montant"/></li>
+                        <br>
+                        <li class='label'><span>Taux d'intérêt</span><span class='asterisk'>*</span></li>
+                        <li><input type='text' size="50" name="taux"/></li>
+                        <br>
+                        <li class='label'><span>Amortissement</span><span class='asterisk'>*</span></li>
+                        <li><input type='text' size="50" name="terme"/></li>
+                        <br>
+                        <li class='label'><span>Paiement Mensuel</span></li>
+                        <li><input type='text' disabled="disabled" size="50" id="paiement" name="paiement"/></li>
+                        <br><br>
+                        <li>
+                            <div class="botton">
+                                <input name="btnAccept" type="submit" value="Calculer" onclick="calculer(formulaire);" formnovalidate>
+                                <input name="btnini" type="reset" value="Initialiser">
+                            </div>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="footer-color">
+            <div class="footer-wrapper">
+                <p>©2021 par Belle Maison inc.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

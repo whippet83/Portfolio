@@ -1,0 +1,36 @@
+header
+{background-color:#454543;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+html, body
+{margin:0;
+padding:0;
+}
+a {text-decoration: none;}
+
+.titre
+{font-size: 50px;}
+
+.titre:link, .titre:visited
+{color:white;}
+
+.bob
+{padding:10px;
+font-size:20px;
+}
+.bob:link, .bob:visited
+{color:white;}
+
+.bob:hover
+{color:#D3D3D3;}
+
+.dateHeure
+{color:white;
+ text-align:center;
+ font-size:20px;
+}
+.color-white{
+    color:white;
+}
